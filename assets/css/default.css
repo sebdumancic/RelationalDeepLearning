@@ -60,6 +60,7 @@ h1 {
 h2 {
    margin-top: 1em;
    font-size: 1.5em;
+   width: 100%;
 }
 
 h3 {
@@ -83,6 +84,28 @@ a.navbar-brand strong {
 
 div.container ul {
    margin-bottom: 1em;
+}
+
+div.paper-authors {
+    float: left;
+    font-size: 13px;
+    width: 80%;
+}
+
+div.paper-resource {
+    float: right;
+    font-size: 13px;
+    width: 20%;
+    text-align: right;
+}
+
+div.paper {
+    width: 100%;
+    float: center;
+}
+
+div.paper-break hr {
+    margin-top: 5em;
 }
 
 /* Latex */
