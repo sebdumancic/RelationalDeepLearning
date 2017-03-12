@@ -105,12 +105,21 @@
         These methods tackle the biggest bottleneck in any machine learning application: the one of create a good set of features.
         Several distinct approaches exists, but are coarsly divided into a supervised and unsupervised approaches.
         Supervised approaches, such as <a href="http://cs231n.github.io/convolutional-networks/"> convolutional neural networks</a>, learn useful features specifically for the task at hand.
-        In contrast, approaches such as 
+        In contrast, approaches such as <a href="http://deeplearning.net/tutorial/rbm.html">Restricted Boltzmann machines</a> and <a href="https://en.wikipedia.org/wiki/Autoencoder">Autoencoders</a>  require no supervision and rely on <i>reconstruction</i> in finding a good set of features.
       </p>
 
 
       <p>
-      	Discuss why would one combine them and the advantages of such combination
+      	Though both field focus on different aspects of machine learning, they are not in a dichotomy and combining the strengths of respective approaches could be beneficial.
+      	Learning the structure of SRL models, i.e., a set of formulas describing a domain, is a difficult problem due to its combinatorial nature.
+      	Integrating some aspects from deep learning might help to mitigate that problem, by providing a new set of features that would make learning easier and faster.
+      	Moreover, better features induces models of lower complexity and reasoning with them faster.
+      	Additionally, simpler models with less parameters are less prone to overfitting.
+      </p>
+
+      <p>
+      	Combining these two fields attacted a growing interest lately.
+      	The following section briefly summarizes the main directions and discusses their differences.
       </p>
 
         
